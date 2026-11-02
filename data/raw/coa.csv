@@ -1,0 +1,19 @@
+Account,Name,Type
+1000,Bank,Asset
+1100,Accounts Receivable,Asset
+1200,Inventory,Asset
+1300,Prepaid Expenses,Asset
+2100,Accounts Payable,Liability
+2200,Accrued Expenses,Liability
+3000,Share Capital,Equity
+4000,Retail Sales,Revenue
+4100,Wholesale Sales,Revenue
+4200,E-commerce Sales,Revenue
+5000,Cost of Goods Sold,Expense
+6000,Rent,Expense
+6100,Salaries,Expense
+6200,Utilities,Expense
+6300,Marketing,Expense
+6400,Insurance,Expense
+6500,Professional Fees,Expense
+6600,IT and Software,Expense

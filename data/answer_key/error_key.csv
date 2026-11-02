@@ -1,0 +1,16 @@
+ErrorID,ErrorType,CompanyCode,Period,DocNo,LineID,InvoiceNo,Description
+E01,Unbalanced document,IT01,10,1900000241,,,Debit line raised by 465.50 EUR
+E02,Unbalanced document,FR01,9,1900000365,,,Debit line raised by 82.18 EUR
+E03,Duplicate invoice,IT01,9,1900000501,,,DocNo 1900000501 duplicates DocNo 1900000059
+E04,Duplicate invoice,FR01,10,1900000502,,,DocNo 1900000502 duplicates DocNo 1900000434
+E05,Wrong period,IT01,9,1900000044,,,Posted 2026-10-03 but assigned to period 9
+E06,Wrong period,FR01,10,1900000378,,,Posted 2026-11-12 but assigned to period 10
+E07,Missing cost center,IT01,9,1900000045,89,,Cost center left blank on expense line
+E08,Missing cost center,IT01,9,1900000109,217,,Cost center left blank on expense line
+E09,Missing cost center,IT01,10,1900000238,475,,Cost center left blank on expense line
+E10,Invalid account,IT01,10,1900000239,477,,Expense line posted to account 9999
+E11,Invalid account,IT01,10,1900000178,355,,Expense line posted to account 9999
+E12,AP sub-ledger mismatch,IT01,10,1900000136,,INV-IT01-00136,INV-IT01-00136 is in the AP sub-ledger but missing in the GL
+E13,AP sub-ledger mismatch,IT01,9,1900000047,,INV-IT01-00047,INV-IT01-00047 amount differs by 816.45 EUR
+E14,AR sub-ledger mismatch,IT01,9,1900000094,,SI-IT01-00094,SI-IT01-00094 is in the AR sub-ledger but missing in the GL
+E15,AR sub-ledger mismatch,FR01,10,1900000461,,SI-FR01-00461,SI-FR01-00461 amount differs by 584.96 EUR
